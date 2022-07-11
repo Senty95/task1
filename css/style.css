@@ -61,6 +61,16 @@ body {
     text-align: center;
 }
 
+.menu-link:hover {
+    text-decoration: underline solid rgb(232, 195, 0);
+    text-decoration-style: wavy;
+    color: #e8c300;
+}
+
+.logo img:hover{
+    filter: drop-shadow(0px 0px 20px rgba(232, 195, 0, 1));
+}
+
 .main-text {
     margin-top: 326px;
     display: flex;
@@ -110,8 +120,20 @@ body {
     margin-bottom: 2rem;
 }
 
+.book-btn:hover {
+    background-color: #e8c10000;
+    border: 1px solid #fff;
+    
+}
+
+.explore-btn:hover {
+    background-color: #e8c300;
+    border: 1px solid #e8c300;
+    
+}
 .banner-btn-link {
     color: #fff;
+    font-weight: 700;
     text-decoration: none;
     border: 1px solid white;
     border-radius: 5px;
